@@ -2,13 +2,13 @@ import pandas as pd
 import seaborn as sns
 import os
 
-def download_titanic_data():
-    """Seaborn'dan Titanic veri setini indir"""
+def download_iris_data():
+    """Seaborn'dan iris veri setini indir"""
     
     # Veri dizinlerini oluştur
     os.makedirs('data/raw', exist_ok=True)
     
-    # Seaborn'dan Titanic veri setini yükle
+    # Seaborn'dan iris veri setini yükle
     df = sns.load_dataset('iris')
     
     # Ham veriyi kaydetme
@@ -22,4 +22,4 @@ def download_titanic_data():
     return df
 
 if __name__ == "__main__":
-    download_titanic_data()
+    download_iris_data()
