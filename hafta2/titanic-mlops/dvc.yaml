@@ -1,0 +1,27 @@
+stages:
+  download_data:
+    cmd: python src/download_data.py
+    deps:
+    - src/download_data.py
+    outs:
+    - data/raw/titanic.csv
+
+  clean_data:
+    cmd: python src/clean_data.py
+    deps:
+    - src/clean_data.py
+    - data/raw/titanic.csv
+    outs:
+    - data/processed/titanic_processed.csv
+
+  train_model:
+    cmd: python src/train_model.py
+    deps:
+    - src/train_model.py
+    - data/processed/titanic_processed.csv
+    outs:
+    - models/random_forest_model.pkl
+    - models/logistic_regression_model.pkl
+    - models/features.json
+    metrics:
+    - models/metrics.json

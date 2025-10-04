@@ -1,0 +1,49 @@
+# ======================
+# Sistem dosyaları (Windows)
+# ======================
+Thumbs.db
+desktop.ini
+
+# ======================
+# Python cache dosyaları
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ======================
+# Sanal ortam klasörleri
+# (senin projen: iris_venv)
+# ======================
+iris_venv/
+venv/
+.venv/
+env/
+
+# ======================
+# DVC cache ve lock dosyaları
+# ======================
+.dvc/
+dvc.lock
+.dvcignore
+
+# ======================
+# Notebook checkpoints
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Model dosyaları
+# (yeniden üretilebileceği için ignore edilir)
+# ======================
+*.pkl
+*.h5
+models/*
+!models/.gitkeep
+
+# ======================
+# Log ve diğer geçici dosyalar
+# ======================
+*.log
+*.tmp

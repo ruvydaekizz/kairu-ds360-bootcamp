@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (ignore large datasets but keep essential ones)
+data/*.csv
+data/*.json
+data/*.xlsx
+!data/sample_data.csv
+!data/loan_data.csv
+
+# Models (ignore models/ directory but keep artifacts/)
+models/
+*.pkl
+*.joblib
+
+# Keep artifacts for deployment
+!artifacts/
+!artifacts/*.pkl
+!artifacts/*.json
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

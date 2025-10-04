@@ -1,0 +1,32 @@
+# GitHub Actions CI Pipeline
+name: Test Uygulaması
+
+# Ne zaman çalışsın?
+on:
+  push:          # Her push'ta
+    branches: [ main ]
+  pull_request:  # Her PR'da
+    branches: [ main ]
+
+# İşler (Jobs)
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Ubuntu üzerinde çalış
+    
+    steps:
+    # 1. Kodu indir
+    - uses: actions/checkout@v3
+    
+    # 2. Python kur
+    - name: Python 3.10 kurulumu
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+    
+    # 3. Testleri çalıştır
+    - name: Testleri çalıştır
+      run: python test_app.py
+    
+    # 4. Uygulamayı çalıştır
+    - name: Uygulamayı çalıştır
+      run: python app.py

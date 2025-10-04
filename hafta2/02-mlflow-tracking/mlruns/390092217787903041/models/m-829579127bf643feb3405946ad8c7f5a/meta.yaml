@@ -1,0 +1,10 @@
+artifact_location: file:///Users/yaseminarslan/Desktop/ds360/ds360/02-mlflow-tracking/mlruns/390092217787903041/models/m-829579127bf643feb3405946ad8c7f5a/artifacts
+creation_timestamp: 1759611887989
+experiment_id: '390092217787903041'
+last_updated_timestamp: 1759611896923
+model_id: m-829579127bf643feb3405946ad8c7f5a
+model_type: null
+name: model
+source_run_id: 481d962abac2401aa36b61552eb56e92
+status: 2
+status_message: null
