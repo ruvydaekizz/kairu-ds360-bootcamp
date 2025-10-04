@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DS360 Bootcamp: Iris Veri Seti Makine Öğrenimi Projesi
 
 
@@ -52,7 +51,3 @@ DS360BOOTCAMP_IRIS_DATASET/
 ├── requirements.txt       # Proje Bağımlılıkları Listesi
 └── dvc.yaml               # DVC Pipeline Tanımı (Veri Akışı)
 
-
-=======
-KAIRU Data Science 360 Bootcamp 🚀
->>>>>>> fb8ddc315abea2d81cfb5187820b449d4b183a9b
