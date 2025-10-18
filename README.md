@@ -22,11 +22,31 @@ Kapsamlı Data Science ve MLOps eğitimi - 10 haftalık program
   - Streamlit dashboard geliştirme
   - 🚀 [Render deployment ready](RENDER_DEPLOYMENT_GUIDE.md)
 
-### 🔜 Hafta 4
-- *İçerik belirlenecek*
+### ✅ Hafta 4 - Finans Sprinti: Fraud Detection 🏦
+**Konular:** Outlier Detection, Feature Engineering, ROC-AUC/PR-AUC, SHAP/LIME, CI/CD Pipeline
+- 📁 [modul](hafta4/modul/) - **Eğitim modülleri (5 script)**
+  - Isolation Forest ve LOF outlier detection
+  - Feature scaling ve encoding yöntemleri  
+  - ROC-AUC ve PR-AUC metrikleri analizi
+  - SHAP/LIME model açıklanabilirlik
+  - CI/CD pipeline ve deployment
+- 🏦 [fraud-detection](hafta4/fraud-detection/) - **Kapsamlı fraud detection projesi**
+  - Credit Card Fraud Detection dataset
+  - Gerçek dünya imbalanced learning
+  - Production-ready MLOps pipeline
+  - Interactive demo ve comprehensive evaluation
 
-### 🔜 Hafta 5
-- *İçerik belirlenecek*
+### ✅ Hafta 5 - Time Series Forecasting: M5 Competition 🏪
+**Konular:** ARIMA, Prophet, LightGBM, Time Series CV, Prefect Automation, Docker Deployment
+- 🏪 [hafta5](hafta5/) - **M5 Forecasting Modular Pipeline**
+  - 📖 **M5 Dataset Story**: Walmart'ın 5 yıllık satış verisi (2011-2016)
+  - 🏗️ **Modular Architecture**: 7 specialized modules (P1-P7)
+  - 📊 **Model Comparison**: ARIMA (~46% sMAPE) vs Prophet (~28% sMAPE) vs LightGBM (~33% sMAPE)
+  - ⚙️ **Feature Engineering**: Lag, rolling, seasonal features
+  - ✅ **Time Series CV**: Rolling-origin cross-validation (proper temporal splitting)
+  - 🔄 **Prefect Automation**: Daily forecasting pipeline (09:00 Europe/Istanbul)
+  - 🐳 **Docker Ready**: Production containerization with volume mounting
+  - 📚 **Comprehensive Docs**: 1,500+ line documentation with dataset story
 
 ### 🔜 Hafta 6
 - *İçerik belirlenecek*
@@ -44,6 +64,25 @@ Kapsamlı Data Science ve MLOps eğitimi - 10 haftalık program
 - *Proje sunumları ve değerlendirme*
 
 ## 🚀 Bu Hafta İçin Hızlı Başlangıç
+
+### Hafta 4 - Fraud Detection
+```bash
+# Proje klasörüne git
+cd hafta4/fraud-detection/
+
+# Virtual environment oluştur
+python -m venv venv && source venv/bin/activate
+
+# Dependencies kur
+pip install -r requirements.txt
+
+# Interactive demo başlat
+python run_demo.py
+
+# Eğitim modülleri çalıştır
+cd ../modul/
+python 1_outlier_detection_with_save.py
+```
 
 ### Hafta 3 - Loan Risk Analysis
 ```bash
@@ -93,6 +132,14 @@ uvicorn src.api:app --reload
 4. **Class Weights** → Sınıf ağırlıklandırma
 5. **Model Comparison** → LR vs XGBoost
 6. **Streamlit** → Dashboard ve deployment
+
+### Hafta 4 - Fraud Detection & MLOps
+1. **Outlier Detection** → Isolation Forest & LOF
+2. **Feature Engineering** → Scaling, encoding, imbalance handling
+3. **Advanced Metrics** → ROC-AUC vs PR-AUC analysis
+4. **Explainability** → SHAP & LIME model interpretation
+5. **CI/CD Pipeline** → Production deployment strategies
+6. **Business Impact** → Cost-benefit analysis & threshold optimization
 
 ## 📖 Ek Kaynaklar
 
