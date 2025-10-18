@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Yeni Masaüstü/Kairu/Kairu_DS360/ds360bootcamp_1/hafta4/fraud-detection/mlruns/851027813289682024/models/m-188ad4bd5a1d410d8398883299f5dfcd/artifacts
+creation_timestamp: 1760473792002
+experiment_id: '851027813289682024'
+last_updated_timestamp: 1760473795238
+model_id: m-188ad4bd5a1d410d8398883299f5dfcd
+model_type: null
+name: random_forest_model
+source_run_id: 638b77030a554823ad61d7c97964d680
+status: 2
+status_message: null

@@ -1,0 +1,20 @@
+digest: 258eb4aa
+name: dataset
+profile: '{"num_rows": 1500, "num_elements": 25500}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Amount", "required": true},
+  {"type": "integer", "name": "Time", "required": true}, {"type": "double", "name":
+  "Customer_Age", "required": true}, {"type": "integer", "name": "Is_Weekend", "required":
+  true}, {"type": "integer", "name": "Transaction_Count_Day", "required": true}, {"type":
+  "double", "name": "Amount_log", "required": true}, {"type": "integer", "name": "Hour",
+  "required": true}, {"type": "integer", "name": "DayOfWeek", "required": true}, {"type":
+  "double", "name": "Amount_Customer_Age_ratio", "required": true}, {"type": "double",
+  "name": "Amount_Customer_Age_product", "required": true}, {"type": "double", "name":
+  "Merchant_Category_atm", "required": true}, {"type": "double", "name": "Merchant_Category_gas",
+  "required": true}, {"type": "double", "name": "Merchant_Category_grocery", "required":
+  true}, {"type": "double", "name": "Merchant_Category_international", "required":
+  true}, {"type": "double", "name": "Merchant_Category_online", "required": true},
+  {"type": "double", "name": "Merchant_Category_restaurant", "required": true}, {"type":
+  "double", "name": "Merchant_Category_retail", "required": true}]}'
+source: '{"tags": {"mlflow.user": "Admin", "mlflow.source.name": "D:\\Yeni Masa\u00fcst\u00fc\\Kairu\\Kairu_DS360\\ds360bootcamp_1\\hafta4\\fraud-detection\\src\\pipeline.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "810c842fed781c554ccd55c27d27b5ce3928faa8"}}'
+source_type: code

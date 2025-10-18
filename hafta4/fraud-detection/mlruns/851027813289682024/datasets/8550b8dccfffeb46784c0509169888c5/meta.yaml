@@ -1,0 +1,9 @@
+digest: 83eba473
+name: dataset
+profile: '{"features_shape": [175, 17], "features_size": 2975, "features_nbytes":
+  23800}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 17]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "Admin", "mlflow.source.name": "D:\\Yeni Masa\u00fcst\u00fc\\Kairu\\Kairu_DS360\\ds360bootcamp_1\\hafta4\\fraud-detection\\src\\pipeline.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "810c842fed781c554ccd55c27d27b5ce3928faa8"}}'
+source_type: code

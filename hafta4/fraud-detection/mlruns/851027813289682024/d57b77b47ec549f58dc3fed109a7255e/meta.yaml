@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Yeni Masaüstü/Kairu/Kairu_DS360/ds360bootcamp_1/hafta4/fraud-detection/mlruns/851027813289682024/d57b77b47ec549f58dc3fed109a7255e/artifacts
+end_time: 1760473602505
+entry_point_name: ''
+experiment_id: '851027813289682024'
+lifecycle_stage: active
+run_id: d57b77b47ec549f58dc3fed109a7255e
+run_name: bedecked-sheep-110
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760473597535
+status: 3
+tags: []
+user_id: Admin

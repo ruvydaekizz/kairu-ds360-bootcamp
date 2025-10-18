@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Yeni Masaüstü/Kairu/Kairu_DS360/ds360bootcamp_1/hafta4/fraud-detection/mlruns/851027813289682024/models/m-d74cc17763bf45a187ef6bd98919f960/artifacts
+creation_timestamp: 1760473262506
+experiment_id: '851027813289682024'
+last_updated_timestamp: 1760473265605
+model_id: m-d74cc17763bf45a187ef6bd98919f960
+model_type: null
+name: logistic_regression_model
+source_run_id: 5d2e68a51be04875b6443fd3350cb522
+status: 2
+status_message: null

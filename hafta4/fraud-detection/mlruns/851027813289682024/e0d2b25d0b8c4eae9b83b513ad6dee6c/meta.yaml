@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Yeni Masaüstü/Kairu/Kairu_DS360/ds360bootcamp_1/hafta4/fraud-detection/mlruns/851027813289682024/e0d2b25d0b8c4eae9b83b513ad6dee6c/artifacts
+end_time: 1760471424758
+entry_point_name: ''
+experiment_id: '851027813289682024'
+lifecycle_stage: active
+run_id: e0d2b25d0b8c4eae9b83b513ad6dee6c
+run_name: clean-crow-748
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760471401408
+status: 3
+tags: []
+user_id: Admin

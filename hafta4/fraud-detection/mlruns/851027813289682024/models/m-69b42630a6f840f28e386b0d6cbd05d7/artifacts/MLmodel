@@ -1,0 +1,14 @@
+artifact_path: "file:///D:/Yeni Masa\xFCst\xFC/Kairu/Kairu_DS360/ds360bootcamp_1/hafta4/fraud-detection/mlruns/851027813289682024/models/m-69b42630a6f840f28e386b0d6cbd05d7/artifacts"
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 3.4.0
+model_id: m-69b42630a6f840f28e386b0d6cbd05d7
+model_size_bytes: 24302
+model_uuid: m-69b42630a6f840f28e386b0d6cbd05d7
+prompts: null
+run_id: c5f7717657174914a208ed0a8ceb21b4
+utc_time_created: '2025-10-14 21:06:54.971543'

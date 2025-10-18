@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Yeni Masaüstü/Kairu/Kairu_DS360/ds360bootcamp_1/hafta4/fraud-detection/mlruns/851027813289682024/cd18031e3d9b4f2fa8a37a053669424b/artifacts
+end_time: 1760475319237
+entry_point_name: ''
+experiment_id: '851027813289682024'
+lifecycle_stage: active
+run_id: cd18031e3d9b4f2fa8a37a053669424b
+run_name: Evaluation_logistic_regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760475315943
+status: 3
+tags: []
+user_id: Admin

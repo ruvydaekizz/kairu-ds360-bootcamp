@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Yeni Masaüstü/Kairu/Kairu_DS360/ds360bootcamp_1/hafta4/fraud-detection/mlruns/851027813289682024/43512194281c4f639a5eec946449b5f4/artifacts
+end_time: 1760470721367
+entry_point_name: ''
+experiment_id: '851027813289682024'
+lifecycle_stage: active
+run_id: 43512194281c4f639a5eec946449b5f4
+run_name: Evaluation_random_forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760470718003
+status: 3
+tags: []
+user_id: Admin

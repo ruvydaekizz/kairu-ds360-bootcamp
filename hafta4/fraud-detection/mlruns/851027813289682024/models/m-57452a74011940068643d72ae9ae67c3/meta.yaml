@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Yeni Masaüstü/Kairu/Kairu_DS360/ds360bootcamp_1/hafta4/fraud-detection/mlruns/851027813289682024/models/m-57452a74011940068643d72ae9ae67c3/artifacts
+creation_timestamp: 1760475215396
+experiment_id: '851027813289682024'
+last_updated_timestamp: 1760475218626
+model_id: m-57452a74011940068643d72ae9ae67c3
+model_type: null
+name: model
+source_run_id: ddb081b1df3f4a0e84b3cc79282e8aa4
+status: 2
+status_message: null
