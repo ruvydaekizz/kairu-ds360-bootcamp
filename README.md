@@ -48,8 +48,15 @@ Kapsamlı Data Science ve MLOps eğitimi - 10 haftalık program
   - 🐳 **Docker Ready**: Production containerization with volume mounting
   - 📚 **Comprehensive Docs**: 1,500+ line documentation with dataset story
 
-### 🔜 Hafta 6
-- *İçerik belirlenecek*
+### ✅ Hafta 6 - Market Basket Analysis 🛒
+**Konular:** Association Rules, Support-Confidence-Lift, Cross-selling, Interactive Analysis
+- 🛒 [hafta6](hafta6/) - **Market Sepeti Analizi Projesi**
+  - Market Basket Analysis temelleri
+  - Support, Confidence, Lift kavramları
+  - Association Rules ve ürün birliktelikleri
+  - Cross-selling ve mağaza optimizasyonu
+  - Interactive Streamlit dashboard
+  - 📊 999 sepet x 16 ürün veri seti analizi
 
 ### 🔜 Hafta 7
 - *İçerik belirlenecek*
@@ -64,6 +71,21 @@ Kapsamlı Data Science ve MLOps eğitimi - 10 haftalık program
 - *Proje sunumları ve değerlendirme*
 
 ## 🚀 Bu Hafta İçin Hızlı Başlangıç
+
+### Hafta 6 - Market Basket Analysis
+```bash
+# Proje klasörüne git
+cd hafta6/
+
+# Virtual environment aktifleştir
+source venv/bin/activate
+
+# Konsol uygulaması çalıştır
+python basit_market_analizi.py
+
+# Web dashboard başlat
+streamlit run basit_streamlit_app.py
+```
 
 ### Hafta 4 - Fraud Detection
 ```bash
@@ -140,6 +162,14 @@ uvicorn src.api:app --reload
 4. **Explainability** → SHAP & LIME model interpretation
 5. **CI/CD Pipeline** → Production deployment strategies
 6. **Business Impact** → Cost-benefit analysis & threshold optimization
+
+### Hafta 6 - Market Basket Analysis
+1. **Data Understanding** → Transaction data and product relationships
+2. **Support Calculation** → Item frequency analysis
+3. **Association Rules** → Confidence and lift metrics
+4. **Interactive Analysis** → Streamlit dashboard development
+5. **Business Applications** → Cross-selling and store optimization
+6. **Advanced Patterns** → Multi-item combinations and recommendations
 
 ## 📖 Ek Kaynaklar
 
