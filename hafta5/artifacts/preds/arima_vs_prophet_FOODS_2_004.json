@@ -1,0 +1,39 @@
+{
+  "item_id": "FOODS_2_004",
+  "comparison_date": "2025-10-30T16:33:23.687711",
+  "arima_metrics": {
+    "MAE": 3.0089324199831244,
+    "RMSE": 3.826809507663371,
+    "MAPE": 10.085140778387098,
+    "sMAPE": 9.324262756560485,
+    "forecast_mean": 33.533258588909945,
+    "actual_mean": 32.125
+  },
+  "prophet_metrics": {
+    "MAE": 4.419839999797092,
+    "RMSE": 4.882465834741273,
+    "MAPE": 14.251719539052775,
+    "sMAPE": 13.06091328916822,
+    "forecast_mean": 36.54483999979709,
+    "actual_mean": 32.125
+  },
+  "winner_by_metric": {
+    "MAE": "ARIMA",
+    "RMSE": "ARIMA",
+    "sMAPE": "ARIMA"
+  },
+  "summary": {
+    "arima_advantages": [
+      "Matematiksel olarak sa\u011flam",
+      "Stationary serilerde g\u00fc\u00e7l\u00fc",
+      "Parametre kontrol\u00fc y\u00fcksek"
+    ],
+    "prophet_advantages": [
+      "Kolay kullan\u0131m",
+      "Otomatik sezonluk yakalama",
+      "Tatil efektleri eklenebilir",
+      "Missing data'ya dayan\u0131kl\u0131",
+      "Business-friendly yorumlama"
+    ]
+  }
+}
