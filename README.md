@@ -58,8 +58,17 @@ Kapsamlı Data Science ve MLOps eğitimi - 10 haftalık program
   - Interactive Streamlit dashboard
   - 📊 999 sepet x 16 ürün veri seti analizi
 
-### 🔜 Hafta 7
-- *İçerik belirlenecek*
+### ✅ Hafta 7 - Metin İşleme ve NLP Optimizasyonu 🤖
+**Konular:** Text Cleaning, Tokenization, TF-IDF, BERT, PII Masking, Model Optimization, FastAPI
+- 📝 [hafta7](hafta7/) - **Türkçe NLP ve Model Optimizasyonu Projesi**
+  - Sentetik sağlık verisi (500 kayıt) ile çalışma
+  - Türkçe metin temizleme ve tokenization (NLTK + SpaCy)
+  - TF-IDF analizi ve doküman benzerliği
+  - BERT tabanlı semantik analiz (multilingual)
+  - PII maskeleme (Regex + Presidio) ile güvenlik
+  - Model optimizasyonu (DistilBERT, quantization)
+  - Production-ready FastAPI servisi
+  - 🏥 Sağlık verilerinde gizlilik koruması
 
 ### 🔜 Hafta 8
 - *İçerik belirlenecek*
@@ -71,6 +80,28 @@ Kapsamlı Data Science ve MLOps eğitimi - 10 haftalık program
 - *Proje sunumları ve değerlendirme*
 
 ## 🚀 Bu Hafta İçin Hızlı Başlangıç
+
+### Hafta 7 - Metin İşleme ve NLP Optimizasyonu
+```bash
+# Proje klasörüne git
+cd hafta7/
+
+# Virtual environment aktifleştir
+source venv/bin/activate
+
+# SpaCy modelini yükle
+python -m spacy download en_core_web_sm
+
+# Tüm örnekleri çalıştır (demo)
+python run_examples.py
+
+# API servisi başlat
+python api/main.py  # Terminal 1
+python api/test_api.py  # Terminal 2 - API testleri
+
+# PII maskeleme örneği
+python src/pii_masking.py
+```
 
 ### Hafta 6 - Market Basket Analysis
 ```bash
@@ -170,6 +201,14 @@ uvicorn src.api:app --reload
 4. **Interactive Analysis** → Streamlit dashboard development
 5. **Business Applications** → Cross-selling and store optimization
 6. **Advanced Patterns** → Multi-item combinations and recommendations
+
+### Hafta 7 - NLP & Text Processing
+1. **Text Preprocessing** → Turkish text cleaning and tokenization
+2. **TF-IDF Analysis** → Term frequency and document similarity
+3. **BERT Integration** → Semantic analysis with multilingual models
+4. **PII Protection** → Privacy preservation with regex and AI
+5. **Model Optimization** → DistilBERT and quantization techniques
+6. **API Development** → Production FastAPI services
 
 ## 📖 Ek Kaynaklar
 
