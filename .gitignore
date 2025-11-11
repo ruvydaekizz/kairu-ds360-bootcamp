@@ -2,3 +2,40 @@ ds360/
 .DS_Store
 *.pyc
 __pycache__/
+venv/
+env/
+fresh_venv/
+.env
+
+# Virtual environments and databases  
+**/venv/
+**/env/
+**/db/
+**/mlruns/
+**/models/
+**/__pycache__/
+
+# Specific large directories
+hafta4/db_ornek/db/
+hafta4/fraud-detection/src/mlruns/
+hafta4/fraud-detection/src/models/
+hafta4/fraud-detection/src/mlflow.db
+
+# Large dataset files
+*.csv
+data/raw/
+data/processed/
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# OS files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
