@@ -120,7 +120,14 @@ Eğitilen modeller arasında **XGBoost**, yüksek doğruluk oranı ve riskli sı
 * **Düşük Yanlış Alarm:** Logistic Regression'a kıyasla çok daha yüksek bir **Precision (0.82)** değerine sahiptir, bu da yanlış pozitiflerin (riskli olmayan müşteriye riskli denmesi) minimize edildiğini gösterir.
 
 ## 🖼️ Uygulama Görüntüsü
-(Not: Kendi ekran görüntünüzü buraya ekleyebilirsiniz)
+<img width="1211" height="582" alt="proje1" src="https://github.com/user-attachments/assets/0d00d0b0-cc13-4a7d-8de9-6620b9253e85" />
+
+<img width="1210" height="581" alt="proje2" src="https://github.com/user-attachments/assets/9e2f78f3-1954-4c7a-b77a-7133ef0e1d51" />
+
+<img width="1152" height="567" alt="proje3" src="https://github.com/user-attachments/assets/dc5f9083-2825-4f39-9117-e33fd8823773" />
+
+<img width="1156" height="571" alt="proje4" src="https://github.com/user-attachments/assets/d291cf24-4630-4d8b-9747-18d45da34e84" />
+
 
 ## 🤝 Katkıda Bulunma
 
@@ -136,3 +143,4 @@ Eğitilen modeller arasında **XGBoost**, yüksek doğruluk oranı ve riskli sı
 
 ----------------------------------------------------
 Geliştirici: Rüveyda Ekiz
+
