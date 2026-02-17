@@ -1,6 +1,6 @@
 # 🎓 Data Science 360 Bootcamp
 
-Kapsamlı Data Science ve MLOps eğitimi - 10 haftalık program
+Kapsamlı Data Science ve MLOps eğitimi - 8 haftalık program
 
 ## 📅 Bootcamp Programı
 
@@ -70,16 +70,77 @@ Kapsamlı Data Science ve MLOps eğitimi - 10 haftalık program
   - Production-ready FastAPI servisi
   - 🏥 Sağlık verilerinde gizlilik koruması
 
-### 🔜 Hafta 8
-- *İçerik belirlenecek*
 
-### 🔜 Hafta 9
-- *İçerik belirlenecek*
-
-### 🎯 Hafta 10 - Sunumlar ve Değerlendirme
+### 🎯 Hafta 8 - Sunumlar ve Değerlendirme
 - *Proje sunumları ve değerlendirme*
 
 ## 🚀 Bu Hafta İçin Hızlı Başlangıç
+
+### Hafta 2 - MLOps Temelleri
+```bash
+# Sanal ortamı aktif et
+source ds360/bin/activate
+
+# İkinci hafta projelerine git
+cd hafta2/
+
+# Titanic MLOps projesini incele
+cd titanic-mlops/
+uvicorn src.api:app --reload
+```
+
+### Hafta 3 - Loan Risk Analysis
+```bash
+# Proje klasörüne git
+cd hafta3/loan-risk-analysis/
+
+# Kurulumu başlat
+./start.sh
+
+# EDA analizi yap
+cd src && python eda.py
+
+# Model eğitimi
+python models.py
+
+# Streamlit dashboard
+streamlit run streamlit_app/app.py
+```
+
+### Hafta 4 - Fraud Detection
+```bash
+# Proje klasörüne git
+cd hafta4/fraud-detection/
+
+# Virtual environment oluştur
+python -m venv venv && source venv/bin/activate
+
+# Dependencies kur
+pip install -r requirements.txt
+
+# Interactive demo başlat
+python run_demo.py
+
+# Eğitim modülleri çalıştır
+cd ../modul/
+python 1_outlier_detection_with_save.py
+```
+
+### Hafta 6 - Market Basket Analysis
+```bash
+# Proje klasörüne git
+cd hafta6/
+
+# Virtual environment aktifleştir
+source venv/bin/activate
+
+# Konsol uygulaması çalıştır
+python basit_market_analizi.py
+
+# Web dashboard başlat
+streamlit run basit_streamlit_app.py
+```
+
 
 ### Hafta 7 - Metin İşleme ve NLP Optimizasyonu
 ```bash
@@ -103,70 +164,7 @@ python api/test_api.py  # Terminal 2 - API testleri
 python src/pii_masking.py
 ```
 
-### Hafta 6 - Market Basket Analysis
-```bash
-# Proje klasörüne git
-cd hafta6/
 
-# Virtual environment aktifleştir
-source venv/bin/activate
-
-# Konsol uygulaması çalıştır
-python basit_market_analizi.py
-
-# Web dashboard başlat
-streamlit run basit_streamlit_app.py
-```
-
-### Hafta 4 - Fraud Detection
-```bash
-# Proje klasörüne git
-cd hafta4/fraud-detection/
-
-# Virtual environment oluştur
-python -m venv venv && source venv/bin/activate
-
-# Dependencies kur
-pip install -r requirements.txt
-
-# Interactive demo başlat
-python run_demo.py
-
-# Eğitim modülleri çalıştır
-cd ../modul/
-python 1_outlier_detection_with_save.py
-```
-
-### Hafta 3 - Loan Risk Analysis
-```bash
-# Proje klasörüne git
-cd hafta3/loan-risk-analysis/
-
-# Kurulumu başlat
-./start.sh
-
-# EDA analizi yap
-cd src && python eda.py
-
-# Model eğitimi
-python models.py
-
-# Streamlit dashboard
-streamlit run streamlit_app/app.py
-```
-
-### Hafta 2 - MLOps Temelleri
-```bash
-# Sanal ortamı aktif et
-source ds360/bin/activate
-
-# İkinci hafta projelerine git
-cd hafta2/
-
-# Titanic MLOps projesini incele
-cd titanic-mlops/
-uvicorn src.api:app --reload
-```
 
 ## 📚 Öğrenme Yolu
 
